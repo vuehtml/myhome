@@ -1,21 +1,11 @@
-# abc.github.com
+2019年5月5日13:57:06
+个人笔记：
+总结一下什么是RESTful架构：
 
-> A Vue.js project
+（1）每一个URI代表一种资源；
 
-## Build Setup
+（2）客户端和服务器之间，传递这种资源的某种表现层；
 
-``` bash
-# install dependencies
-npm install
+（3）客户端通过四个HTTP动词，对服务器端资源进行操作，实现"表现层状态转化"。
 
-# serve with hot reload at localhost:8080
-npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
